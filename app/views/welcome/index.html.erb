@@ -1,0 +1,44 @@
+<div class="container">
+	<div id="splitlayout" class="splitlayout">
+		<div class="intro">
+			<div class="side side-left">
+				<header class="codropsheader clearfix">
+					<span>Which suit for Friday?</span>
+					<h1>You get to choose which suit Ouzy wears on Tie Friday. Choose wisely.</h1>
+					
+				</header>
+				<div class="intro-content">
+					<h1><span>Navy </span><span>Suit</span></h1>
+				</div>
+				<div class="overlay"></div>
+			</div>
+			<div class="side side-right">
+				<div class="intro-content">
+					<h1><span>Gray </span><span>Suit</span></h1>
+				</div>
+				<div class="overlay"></div>
+			</div>
+		</div><!-- /intro -->
+		<div class="page page-right">
+			<div class="page-inner">
+				<section>
+					<h2>Gray suit</h2>
+					
+					<div class="confirm-button"><div class="button-text" style="color: #fff"><%= link_to content_tag(:div, "Vote for this one"), welcome_thankyougray_path %></div></div></a>
+				</section>
+			</div><!-- /page-inner -->
+		</div><!-- /page-right -->
+		<div class="page page-left">
+			<div class="page-inner">
+				<section>
+					<h2>Navy suit</h2>
+					<div class="confirm-button"><div class="button-text" style="color: #fff"><%= link_to content_tag(:div, "Vote for this one"), welcome_thankyounavy_path %></div></div></a>
+				</section>
+			</div><!-- /page-inner -->
+		</div><!-- /page-left -->
+		<a href="#" class="back back-right" title="back to intro">&rarr;</a>
+		<a href="#" class="back back-left" title="back to intro">&larr;</a>
+	</div><!-- /splitlayout -->
+</div><!-- /container -->
+<%= javascript_include_tag "cbpSplitLayout", "data-turbolinks-track" => true %>
+<%= javascript_include_tag "classie", "data-turbolinks-track" => true %>
