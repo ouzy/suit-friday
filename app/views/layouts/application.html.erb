@@ -2,11 +2,11 @@
 <html>
 <head>
   <title>FridaySuit</title>
-  <%= stylesheet_link_tag    "application", media: "all" %>
-  <%= stylesheet_link_tag    "component", media: "all" => true %>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= stylesheet_link_tag    "component", media: "all", "data-turbolinks-track" => true %>
 
-  <%= javascript_include_tag "mondernizr.custon" %>
-  <%= javascript_include_tag "application" %>
+  <%= javascript_include_tag "mondernizr.custon", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   
 
   <%= csrf_meta_tags %>
