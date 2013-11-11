@@ -32,6 +32,9 @@ FridaySuit::Application.configure do
   # Generate digests for assets URLs.
   config.assets.digest = true
 
+  config.assets.precompile += %w[ stylesheets/*.css javascripts/*.js ]
+
+
   # Version of your assets, change this if you want to expire all your assets.
   config.assets.version = '1.0'
 
