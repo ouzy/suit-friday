@@ -3,7 +3,7 @@ FridaySuit::Application.configure do
 
   config.assets.debug = true
 
-config.assets.enabled = false
+config.assets.enabled = false --skip-assets
   # Code is not reloaded between requests.
   config.cache_classes = true
 
