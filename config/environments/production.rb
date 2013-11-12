@@ -1,7 +1,6 @@
 FridaySuit::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
-config.assets.precompile += ['classie.js', 'cbpSplitLayout.js']
   config.assets.debug = true
 
 config.assets.enabled = false --skip-assets
