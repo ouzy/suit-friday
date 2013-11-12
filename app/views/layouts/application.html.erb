@@ -6,8 +6,7 @@
   <%= stylesheet_link_tag    "component", media: "all", "data-turbolinks-track" => true %>
   
 
-  <%= javascript_include_tag "mondernizr.custon", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+ 
 
 
   <%= csrf_meta_tags %>
@@ -16,6 +15,8 @@
 
 <%= yield %>
 
+ <%= javascript_include_tag "mondernizr.custon", "data-turbolinks-track" => true %>
+ <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
 <%= javascript_include_tag "cbpSplitLayout", "data-turbolinks-track" => true %>
 <%= javascript_include_tag "classie", "data-turbolinks-track" => true %>
 </body>
