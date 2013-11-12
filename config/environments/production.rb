@@ -3,7 +3,7 @@ FridaySuit::Application.configure do
 
   config.assets.debug = true
 
-config.assets.enabled = false --skip-assets
+config.assets.enabled = false
   # Code is not reloaded between requests.
   config.cache_classes = true
 
@@ -34,6 +34,7 @@ config.assets.enabled = false --skip-assets
 
   # Generate digests for assets URLs.
   config.assets.digest = true
+
 
 
   # Version of your assets, change this if you want to expire all your assets.
