@@ -48,6 +48,14 @@ body {
 	color: #fff;
 }
 
+.home {
+	padding-left: 43%;
+	padding-top: 5%;
+	font-size: 1em;
+	font-weight: 300;
+	color: #fff;
+}
+
 .navybackground {
 	background-image: url('http://f.cl.ly/items/0u2c3t3a361V1W3D0J0x/navy-suit.png');
 	height: 100%;
